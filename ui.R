@@ -24,8 +24,8 @@ shinyUI(
                            
                            column(3, 
                                   h4("aWhere Login"), 
-                                  textInput(inputId ="api_key", label = "Username", value = "johncorbett@awhere.com"),
-                                  passwordInput(inputId = "api_code", label = "Password", value = "tlaminca"), 
+                                  textInput(inputId ="api_key", label = "Username", value = "Your Email"),
+                                  passwordInput(inputId = "api_code", label = "Password"), 
                                   uiOutput("link"), 
                                   h4("Set Years"), 
                                   numericInput(inputId = "baseline_year", label = "Baseline Year", value = 2014, min = 2008, max = this_year),
